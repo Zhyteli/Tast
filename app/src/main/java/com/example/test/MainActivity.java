@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         WebView webView = findViewById(R.id.webView);
         webView.getSettings().setJavaScriptEnabled(true);
         Button downloadBtn = findViewById(R.id.downloadBtn);
+        int f = 5;
         downloadBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
